@@ -161,14 +161,14 @@ and direction actually used in the ANSYS model.
 
 | Item | Value |
 |---|---|
-| ANSYS version | [enter version] |
-| Material | [enter material] |
-| Material properties and source | [enter details] |
-| Element type | [enter element type] |
-| Mesh size and mesh-convergence check | [enter details] |
-| Contacts and boundary conditions | [describe] |
-| Applied load and direction | [describe] |
-| Fatigue method and material data | [describe] |
+| ANSYS version | [student version 2026R1] |
+| Material | [cast caebon steel] |
+| Material properties and source | [solisworks data base] |
+| Element type | [tringulaire] |
+| Mesh size and mesh-convergence check | [5mm] |
+| Contacts and boundary conditions | [regide in the top] |
+| Applied load and direction | [4048.55 N] |
+
 
 ### Visible static results
 
@@ -184,27 +184,7 @@ them in the ANSYS result details before treating them as final.
 Equivalent elastic strain is dimensionless (m/m). It is not displacement and
 is not a fatigue-life result.
 
-### Fatigue setup and results
 
-The supplied fatigue plot is labeled **Constant Amplitude Load — Fully Reversed**.
-This represents a load alternating equally in tension and compression, with a
-zero mean load. Verify that this is an appropriate representation of the
-connecting rod’s actual load cycle.
-
-The plot shows mean-stress correction options, but it does not show a
-numerical fatigue-life result.
-
-| Fatigue result | Value |
-|---|---:|
-| Fatigue life | [enter ANSYS result] |
-| Fatigue damage | [enter ANSYS result] |
-| Fatigue safety factor | [enter ANSYS result] |
-| S-N data and source | [enter material data source] |
-| Load ratio / cycle definition | [confirm and enter] |
-
-A fatigue assessment requires suitable fatigue material data and a load cycle
-representative of engine operation. A single static force does not by itself
-define fatigue life.
 
 ## Interpretation and limitations
 
