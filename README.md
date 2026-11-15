@@ -1,0 +1,1 @@
+# static-fatigue-analysis-of-connecting-rod-on-ansyis
